@@ -1,0 +1,25 @@
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.poza{
+    width: 150px;
+    height: 150px;
+}
+
+.btn{
+    background-color: red;
+}
+
+body {
+
+    background-color: mediumaquamarine;
+
+}
