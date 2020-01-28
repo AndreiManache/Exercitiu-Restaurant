@@ -7,37 +7,18 @@
     <title>Restaurant</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <table>
-        <thead>
-            <tr>
-                <th colspan="3">The table header</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><img src="burger.jpg" alt="mancare" class="poza"></td>
-                <td><h2> <strong>Burger</strong></h2>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                <td><button class="btn">DETALII</button></td>
-            </tr>
-            <tr>
-                <td><img src="burger.jpg" alt="mancare" class="poza"></td>
-                <td><h2> <strong>Burger</strong></h2>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                <td><button class="btn">DETALII</button></td>
-            </tr><tr>
-                <td><img src="burger.jpg" alt="mancare" class="poza"></td>
-                <td><h2> <strong>Burger</strong></h2>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                <td><button class="btn">DETALII</button></td>
-            </tr><tr>
-                <td><img src="burger.jpg" alt="mancare" class="poza"></td>
-                <td><h2> <strong>Burger</strong></h2>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
-                <td><button class="btn">DETALII</button></td>
-            </tr>
-        </tbody>
+
+<body onload="getLista()">
+
+    <h1>Cald si bun</h1>
+    <input type="text" class="searchBar">
+    <button class="btn">Cauta ingrediente</button>
+    <button class="btn2">Contact</button>
+
+    <table>   
+        <tbody></tbody>
     </table>
+
+    <script src="script.js"></script>
 </body>
 </html>

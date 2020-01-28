@@ -1,25 +1,14 @@
-table,
-td {
-    border: 1px solid #333;
+body{
+    background-color: rgb(151, 234, 255);
+}
+.img {
+    width : 150px;
+    height: 140px;
 }
 
-thead,
-tfoot {
-    background-color: #333;
-    color: #fff;
-}
-
-.poza{
-    width: 150px;
-    height: 150px;
-}
-
-.btn{
-    background-color: red;
-}
-
-body {
-
-    background-color: mediumaquamarine;
-
+.detalii{
+    border-radius: 2px;
+    background-color: rgb(245, 139, 139);
+    width: 70px;
+    height: 30px;
 }
