@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(151, 234, 255);
+    background-color:rgb(235, 216, 133);
 }
 .img {
     width : 150px;
@@ -11,4 +11,53 @@ body{
     background-color: rgb(245, 139, 139);
     width: 70px;
     height: 30px;
+}
+
+.wrapper{
+    position: absolute;
+    border-radius:50px;
+    top: 10%;
+    left:10%;
+    right:10%;
+    background-color: rgb(151, 234, 255);
+    padding: 30px;
+}
+
+.btnContact2{
+    position: absolute;
+    left:75%;
+    top:3%;
+    width:7em;
+    height: 2em;
+    border-radius:50px;
+    border: none;
+}
+
+.btnContact{
+    position: absolute;
+    left:86%;
+    top:3%;
+    width:7em;
+    height: 2em;
+    border-radius:50px;
+    border: none;
+}
+
+.btnMeniu{
+    position: absolute;
+    width:7em;
+    height: 2em;
+    border-radius:50px;
+    border: none;
+    left:86%;
+    top:3%;
+}
+
+table{
+    margin-top: 20px;
+}
+
+.imagine{
+    width: 500px;
+    height: 500px;
 }
