@@ -13,6 +13,5 @@ function draw(){
     document.querySelector(".imagine").src = preparat.imagine;
     document.querySelector("h3").innerText = preparat.nume;
     document.querySelector("p").innerText = "Ingrediente: "+ preparat.ingrediente + "\n\n" + "Reteta: "+ preparat.reteta;
-
 }
 

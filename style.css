@@ -1,25 +1,30 @@
-body{
-    background-color:rgb(235, 216, 133);
+*{
+    padding: 0%;
+    margin: 0%;
 }
+body{
+    background-color:rgb(243, 240, 82);
+}
+
 .img {
     width : 150px;
     height: 140px;
+    border-radius: 10px;
 }
 
 .detalii{
-    border-radius: 2px;
-    background-color: rgb(245, 139, 139);
+    border-radius: 3px;
+    border:none;
+    background-color: rgb(235, 69, 69);
     width: 70px;
     height: 30px;
 }
 
 .wrapper{
     position: absolute;
-    border-radius:50px;
-    top: 10%;
     left:10%;
     right:10%;
-    background-color: rgb(151, 234, 255);
+    background-color: rgb(191, 235, 224);
     padding: 30px;
 }
 
@@ -31,6 +36,8 @@ body{
     height: 2em;
     border-radius:50px;
     border: none;
+    background-color: rgb(89, 111, 235);;
+    font-size: 16px;
 }
 
 .btnContact{
@@ -41,6 +48,8 @@ body{
     height: 2em;
     border-radius:50px;
     border: none;
+    background-color: rgb(89, 111, 235);;
+    font-size: 16px;
 }
 
 .btnMeniu{
@@ -51,6 +60,8 @@ body{
     border: none;
     left:86%;
     top:3%;
+    background-color: rgb(89, 111, 235);;
+    font-size: 16px;
 }
 
 table{
@@ -60,4 +71,18 @@ table{
 .imagine{
     width: 500px;
     height: 500px;
+    border-radius: 50px;
+}
+
+.searchBar{
+    width:300px;
+    height:30px;
+    font-size: 15px;
+    border:none;
+    border-bottom: 2px solid rgb(89, 111, 235);
+    margin: 20px;
+}
+
+h1{
+    margin-bottom: 25px;
 }

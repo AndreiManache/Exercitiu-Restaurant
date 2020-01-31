@@ -17,7 +17,9 @@ function draw(){
     var input = document.querySelector(".searchBar").value;
 
     for(var i in rezultatLista.menu){
+
         if(rezultatLista.menu[i].ingrediente.indexOf(input)>-1 || rezultatLista.menu[i].nume.indexOf(input)>-1){
+            
             str+=`
             <tr>
                 <td><img class="img" src="${rezultatLista.menu[i].imagine}"/></td>
